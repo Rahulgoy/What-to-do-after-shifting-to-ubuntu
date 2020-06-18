@@ -1,0 +1,46 @@
+1. installing pip
+ >> sudo apt install python3-pip
+ 
+ >> pip3 install numpy, pandas, matplotlib, tkinter, pygame, keras, tensorflow, virtualenv,opencv, seaborn, sklearn,jupyter notebook, Speech Recognition
+ 
+ Numpy>> pip3 install numpy
+ Pandas>> pip3 install pandas
+ Matplotlib>> pip3 install matplotlib
+ Tkinter>> sudo apt-get install python3-tk
+ Pygame>> sudo apt install python3-pygame
+ opencv>> sudo apt-get install python-opencv
+ keras>> pip3 install keras
+ sklearn>> pip3 install -U scikit-learn
+ jupyter notebook>> pip install jupyterlab
+ virtualenv >> python3 -m pip install --user virtualenv
+ tensorflow >> pip3 install --user --upgrade tensorflow
+ Speech Recognition >> pip3 install SpeechRecognition (pending)
+ 
+ 
+ >> vlc,stcer, wine, brave, rambox, caffeine, gnome tweak, pycharm, vs code, 
+  
+ vlc>> sudo snap install vlc
+ rambox>> sudo snap install rambox
+ stacer>> sudo apt install stacer
+ brave>>  sudo apt update
+	  sudo apt -y install curl software-properties-common apt-transport-https
+	  curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+	  echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+	  sudo apt update
+	  sudo apt install -y brave-browser
+	  
+caffeine>> sudo apt-get install -y caffeine
+gnome>> sudo add-apt-repository universe
+	sudo apt install gnome-tweak-tool
+	
+wine>> sudo dpkg --add-architecture i386
+	wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+	sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+	sudo apt update
+	sudo apt install --install-recommends winehq-stable
+	
+vs code >> sudo snap install --classic code
+	
+
+
+
